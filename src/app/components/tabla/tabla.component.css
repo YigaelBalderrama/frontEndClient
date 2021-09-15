@@ -1,0 +1,30 @@
+.table {
+    width: 72%;
+    height: 100%;
+    float: right;
+  }
+  
+  .mat-column-position {
+    width: 32px;
+    border-right: 1px solid;
+    padding-right: 24px;
+    text-align: center;
+  }
+  
+  .mat-column-name {
+    padding-left: 16px;
+    font-size: 20px;
+  }
+  
+  .mat-column-lastName {
+    font-style: italic;
+    padding-left: 10px;
+    font-size: 20px;
+  }
+  .header_row {
+   background-color: rgba(155, 84, 155, 0.945);
+   font-style: bold !important;
+}
+  
+
+  

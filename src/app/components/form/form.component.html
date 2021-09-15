@@ -1,0 +1,18 @@
+<div class= "body">
+    <div class="form">
+    <form [formGroup]="form" (ngSubmit)="registrar()">
+        <img src="./assets/img/herramientas.png" alt="Icono Ferreteria" width="50%">
+        <h1>Registrar Cliente</h1>
+        <mat-form-field class="ancho" appearance="fill">
+            <mat-label>Nombre</mat-label>
+            <input type="text" matInput autocomplete="off" formControlName="name">
+        </mat-form-field>
+        <mat-form-field class="ancho" appearance="fill">
+            <mat-label>Apellido</mat-label>
+            <input type="text" matInput autocomplete="off" formControlName="lastname">
+        </mat-form-field>
+        <br>
+        <button type="submit" [disabled]="form.invalid" mat-raised-button class="ancho button" color="primary">Registrar</button>
+    </form>
+    </div>
+</div>
